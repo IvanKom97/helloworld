@@ -31,7 +31,7 @@ public class Main {
         System.out.println(friend);
 
         var frog = 3.5;
-        frog = 3.5 * 10;
+        frog = frog * 10;
         System.out.println(frog);
         frog = frog / 3.5;
         System.out.println(frog);
@@ -54,7 +54,7 @@ public class Main {
         var ifPeopleMore = 94;
         allPeople = allPeople + ifPeopleMore;
         System.out.println("Теперь в компании работают " + allPeople + " человека");
-        var newTime = allTime / allPeople;
+        var newTime = timeFor1Person * allPeople;
         System.out.println("Если в компании работают " +allPeople + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
 
 
