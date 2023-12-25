@@ -42,6 +42,7 @@ public class Main {
         var weight2 = 82.7;
         var different = weight2 - weight1;
         System.out.println("разница " + different + " килограмма!");
+
         var different1 = weight2 % weight1;
         System.out.println("разница через остаток от деления " + different1);
 
