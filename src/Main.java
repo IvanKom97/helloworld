@@ -74,7 +74,7 @@ public class Main {
         long bus = 987678965549L;
         float run = 2.786f;
         short boy = 569;
-        int girl = -159;
+        short girl = -159;
         short sema = 27897;
         byte artem = 67;
 
