@@ -84,7 +84,7 @@ public class Main {
         byte ekaterinaAnfreevna = 30;
 
         int papersForOnePerson = allPapers / (lyudmilaPavlovna + annaSergeevna + ekaterinaAnfreevna);
-        System.out.println("на одного ученика рассчитано " + papersForOnePerson + " листов бумаги");
+        System.out.println("на одного ученика рассчитано " + papersForOnePerson + " листов бумаги!");
 
         byte makes_Bottles_In_2Minutes = 16;
         int makes_Bottles_In_1Minutes = makes_Bottles_In_2Minutes / 2;
