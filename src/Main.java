@@ -31,11 +31,11 @@ public class Main {
         System.out.println(friend);
 
         var frog = 3.5;
-        frog = frog * 10;
+        frog = frog * 10.0;
         System.out.println(frog);
         frog = frog / 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog = frog + 4.0;
         System.out.println(frog);
 
         var weight1 = 78.2;
@@ -134,6 +134,34 @@ public class Main {
         float itTakesIfHeLoses500G = 14f;
         float onAverageHeLoses = (itTakesIfHeLoses250G + itTakesIfHeLoses500G) / 2;
         System.out.println(onAverageHeLoses + " дней в среднем понадобится при потери веса в среднем, чередуя минимум и максимум");
+
+        int mariaGets = 67760;
+        int denisGets = 83690;
+        int kristinaGets = 76230;
+
+        int risingTenPercentsMaria = ((mariaGets / 100) * 10) + mariaGets;
+        System.out.println("получает Мария после повышения " + risingTenPercentsMaria);
+        int risingTenPercentsDenis = ((denisGets / 100) * 10) + denisGets;
+        System.out.println("Получает Денис после повышения " + risingTenPercentsDenis);
+        int risingTenPercentKristina = ((kristinaGets / 100) * 10) + kristinaGets;
+        System.out.println("Получает Кристина после повышения " + risingTenPercentKristina);
+
+        int yearsSalaryOfMaria = risingTenPercentsMaria * 12;
+        int yearsSalaryOfMariaBefore = mariaGets * 12;
+        int differenceBetweenBeforeAfterMaria = yearsSalaryOfMaria - yearsSalaryOfMariaBefore;
+        System.out.println("Разница между годовой зарплатой Марии до и после повышения равна " + differenceBetweenBeforeAfterMaria);
+
+        int yearsSalaryOfDenis = risingTenPercentsDenis * 12;
+        int yearsSalaryOfDenisBefore = denisGets * 12;
+        int differenceBetweenBeforeAfterDenis = yearsSalaryOfDenis - yearsSalaryOfDenisBefore;
+        System.out.println("Разница между до и после повышения зарплаты Дениса равна " +differenceBetweenBeforeAfterDenis);
+
+        int yearsSalaryOfKristina = risingTenPercentKristina * 12;
+        int yearsSalaryOfKristinaBefore = kristinaGets * 12;
+        int differenceBetweenBeforeAfterKristina = yearsSalaryOfKristina - yearsSalaryOfKristinaBefore;
+        System.out.println("Разница между до и после повышения зарплаты Кристина равна " + differenceBetweenBeforeAfterKristina);
+
+
 
 
 
