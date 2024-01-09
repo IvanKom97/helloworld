@@ -165,7 +165,13 @@ public class Main {
 */
 
 
-        //  Домашнаяя работа по if - else
+
+
+
+
+
+
+                                    //  Домашнаяя работа по if - else
         // Задача 1
         Scanner scan = new Scanner(System.in);
         /*
