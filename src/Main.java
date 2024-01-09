@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("привет Ванечек!");
+       /* System.out.println("привет Ванечек!");
         System.out.println("Hello world!");
 
         var dog = 8.0;
@@ -160,22 +162,129 @@ public class Main {
         int yearsSalaryOfKristinaBefore = kristinaGets * 12;
         int differenceBetweenBeforeAfterKristina = yearsSalaryOfKristina - yearsSalaryOfKristinaBefore;
         System.out.println("Разница между до и после повышения зарплаты Кристина равна " + differenceBetweenBeforeAfterKristina);
+*/
+
+
+        //  Домашнаяя работа по if - else
+        // Задача 1
+        Scanner scan = new Scanner(System.in);
+        /*
+        System.out.println("Введите ваш возраст: ");
+        int age1 = scan.nextInt();
+
+        if (age1 < 18) {
+            System.out.println("Вы еще не совершеннолетний");
+        }
+        else {
+            System.out.println("Вы уже совершеннолетний ");
+        }   */
+
+
+        //Задача 2
+        /*System.out.print("Какая сегодня погода? Напишите в градусах. ");
+        int temperature = scan.nextInt();
+
+        if (temperature < 4 && temperature >= -50) {
+            System.out.println("Холодно. Оденьте шапку");
+
+        } else if (temperature > 60 || temperature < -51) {
+            System.out.println("Error");
+
+        } else
+            System.out.println("На улице тепло, можно без шапки ");  */
+
+
+                  //Задача 3
+      /*  System.out.println("Вы превышаете скорость? (да-нет) ");
+        String speed = scan.nextLine();
+
+        if (speed.equals("Да") || speed.equals("да")) {
+            System.out.println("Пора тормознуть");
+        } else if (speed.equals("Нет") || speed.equals("нет")) {
+            System.out.println("Отлично, переходите к следующему вопросу");
+        } else
+            System.out.println("Уточните правильность ответа");
+
+        System.out.println("Какая ваша скорость передвижения на данный момент?: ");
+        int speedRightNow = scan.nextInt();
+        if (speedRightNow > 60) {
+            System.out.println("Можно схлопать штраф");
+        } else if (speedRightNow < 60 && speedRightNow >= 10) {
+            System.out.println("Скорость в пределах нормы");
+        } else {
+            System.out.println("Пешком быстрее");
+
+
+        }
+           */
+
+        //   Задача 4
+        /*System.out.print("Введите ваш возраст: ");
+        int age = scan.nextInt();
+
+
+        if (age >= 2 && age <=6  ) {
+            System.out.println("Вам нужно в детский сад");
+
+        } else if (age >= 7 && age <=17) {
+            System.out.println("Вам необходимо в школу ");
+        } else if (age >= 18 && age <= 24) {
+            System.out.println("В универ");
+        } else if (age > 24) {
+            System.out.println("Ваше место на работе");
+        }   */
 
 
 
+                //Задача 5
+      /*  System.out.println("Возраст ребенка: ");
+        int age = scan.nextInt();
 
+        if (age < 5) {
+            System.out.println("Ребенок не может кататься на атракционе");
+        } else if (age >= 5 && age <= 14) {
+            System.out.println("Ребенок допущен на атракцион только в присутствии взрослого");
+        } else if (age > 14) {
+            System.out.println("Допущен");
+        }
+               */
 
+                          //Задача 6
+        /*int max = 102;
+        int sitPlaces = 60;
+        int stand = max - sitPlaces;
+        System.out.println("Сколько людей по вашим подсчетам на данный момент в вагоне?: ");
+        int peopleNow = scan.nextInt();
+        int available;
 
+        if (peopleNow > max) {
+            System.out.println("Если только на крыше");
+        } else if (peopleNow == max) {
+            System.out.println("Вагон полон");
+        } else if (peopleNow < max && peopleNow >= sitPlaces) {
+            available = max - peopleNow;
+            System.out.println("Свободных сидячих мест нет. " + available + " мест доступно для продолжения пути стоя");
+        } else if (peopleNow < sitPlaces) {
+            available = sitPlaces - peopleNow;
+            System.out.println("Доступно " + available + " сидений и " + stand + " мест для продолжения пути стоя");
+         }    */
 
+                              //Задача 7
+        int[] oneTwoThree = new int[] {1,2,3};
+        System.out.println("введите число от 1 до 3: ");
+        int choice = scan.nextInt();
 
+        if (choice == 1) {
+            System.out.println("Это самое маленькое число");
 
-
-
-
-
-
-
-
+        } else if (choice == 2) {
+            System.out.println("Это второе по величине значение");
+        } else if (choice == 3) {
+            System.out.println("Это самое большое по величине значение");
+        } else
+            System.out.println("Error. Прочитайте условие внимательно");
 
     }
-}
+    }
+
+
