@@ -174,16 +174,17 @@ public class Main {
                                     //  Домашнаяя работа по if - else
         // Задача 1
         Scanner scan = new Scanner(System.in);
-        /*
-        System.out.println("Введите ваш возраст: ");
+
+        /* System.out.println("Введите ваш возраст: ");
         int age1 = scan.nextInt();
 
-        if (age1 < 18) {
+        if (age1 == 0 && age1 < 18) {
             System.out.println("Вы еще не совершеннолетний");
-        }
-        else {
+        } else if (age1 < 0) {
+            System.out.println("Error");
+        } else {
             System.out.println("Вы уже совершеннолетний ");
-        }   */
+        }  */
 
 
         //Задача 2
@@ -276,21 +277,22 @@ public class Main {
          }    */
 
                               //Задача 7
-        int[] oneTwoThree = new int[] {1,2,3};
-        System.out.println("введите число от 1 до 3: ");
-        int choice = scan.nextInt();
+        int one = 13;
 
-        if (choice == 1) {
-            System.out.println("Это самое маленькое число");
+        int two = 15;
 
-        } else if (choice == 2) {
-            System.out.println("Это второе по величине значение");
-        } else if (choice == 3) {
-            System.out.println("Это самое большое по величине значение");
+        int three = 10;
+
+        if (two > one && two > three) {
+            System.out.println("Самое большое число из представленных " + two);
         } else
-            System.out.println("Error. Прочитайте условие внимательно");
+            System.out.println("Числа меньше, чем " + two);
+        }
+
+
+
 
     }
-    }
+
 
 
