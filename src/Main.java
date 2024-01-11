@@ -165,13 +165,7 @@ public class Main {
 */
 
 
-
-
-
-
-
-
-                                    //  Домашнаяя работа по if - else
+        //  Домашнаяя работа по if - else
         // Задача 1
         Scanner scan = new Scanner(System.in);
 
@@ -201,7 +195,7 @@ public class Main {
             System.out.println("На улице тепло, можно без шапки ");  */
 
 
-                  //Задача 3
+        //Задача 3
       /*  System.out.println("Вы превышаете скорость? (да-нет) ");
         String speed = scan.nextLine();
 
@@ -242,8 +236,7 @@ public class Main {
         }   */
 
 
-
-                //Задача 5
+        //Задача 5
       /*  System.out.println("Возраст ребенка: ");
         int age = scan.nextInt();
 
@@ -256,7 +249,7 @@ public class Main {
         }
                */
 
-                          //Задача 6
+        //Задача 6
         /*int max = 102;
         int sitPlaces = 60;
         int stand = max - sitPlaces;
@@ -276,23 +269,29 @@ public class Main {
             System.out.println("Доступно " + available + " сидений и " + stand + " мест для продолжения пути стоя");
          }    */
 
-                              //Задача 7
-        int one = 13;
-
+        //Задача 7
+     /* int one = 13;
         int two = 15;
-
         int three = 10;
+
 
         if (two > one && two > three) {
             System.out.println("Самое большое число из представленных " + two);
+        } else {
+            System.out.println("Числа больше, чем " + two);
+        }   */
+
+
+
+        // HOMEWORK IF ELSE SWITCH CASE PART 2
+      /*  System.out.println("Выберите вашу операционную систему: iOS - Android ");
+        String clientOS = scan.next();
+
+        if (clientOS.equals("iOS") || clientOS.equals("ios")) {
+            System.out.println("Перейдите по ссылке для установки приложения на iOS");
+        } else if (clientOS.equals("Android") || clientOS.equals("android")) {
+            System.out.println("Перейдите по ссылке для установки приложения на Android");
         } else
-            System.out.println("Числа меньше, чем " + two);
-        }
-
-
-
-
+            System.out.println("Error"); */
     }
-
-
-
+}
