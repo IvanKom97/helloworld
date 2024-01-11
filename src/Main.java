@@ -270,21 +270,35 @@ public class Main {
          }    */
 
         //Задача 7
-     /* int one = 13;
-        int two = 15;
-        int three = 10;
+        System.out.println("Введите первое число: ");
+        int one = scan.nextInt();
 
+        System.out.println("Введите второе число: ");
+        int two = scan.nextInt();
 
-        if (two > one && two > three) {
-            System.out.println("Самое большое число из представленных " + two);
-        } else {
-            System.out.println("Числа больше, чем " + two);
-        }   */
+        System.out.println("Введите третье число: ");
+        int three = scan.nextInt();
 
+        if (one > two && one > three) {
+            System.out.println("самое большое число " + one);
+        } else if (two > one && two > three) {
+            System.out.println("самое большое число " + two);
+        } else if (three > one && three > two) {
+            System.out.println("самое большое число " + three);
+        } else if (one == two && one >= three) {
+            System.out.println("самое большое число " + one);
+        } else if (two == three && two >= one) {
+            System.out.println("самое большое число " + two);
+        } else if (three == one && three >= two) {
+            System.out.println("самое большое число " + three);
+        }
+
+        }
+        }
 
 
         // HOMEWORK IF ELSE SWITCH CASE PART 2
-      /*  System.out.println("Выберите вашу операционную систему: iOS - Android ");
+       /* System.out.println("Выберите вашу операционную систему: iOS - Android ");
         String clientOS = scan.next();
 
         if (clientOS.equals("iOS") || clientOS.equals("ios")) {
@@ -293,5 +307,26 @@ public class Main {
             System.out.println("Перейдите по ссылке для установки приложения на Android");
         } else
             System.out.println("Error"); */
-    }
-}
+
+        //    Exercise 1 - 2 без сканера
+        /* int clientOS = 0;
+        int clientDeviceYear = 2015;
+        if (clientOS == 1 && clientDeviceYear < 2015) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientOS == 0 && clientDeviceYear < 2015 ) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке:");
+        } else if (clientOS == 1 && clientDeviceYear >= 2015) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else if (clientOS == 0 && clientDeviceYear >= 2015) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else
+            System.out.println("Error");    */
+
+        //Високосный год
+
+
+
+
+
+
+
