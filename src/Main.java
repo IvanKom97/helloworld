@@ -270,27 +270,15 @@ public class Main {
          }    */
 
         //Задача 7
-        System.out.println("Введите первое число: ");
-        int one = scan.nextInt();
-
-        System.out.println("Введите второе число: ");
-        int two = scan.nextInt();
-
-        System.out.println("Введите третье число: ");
-        int three = scan.nextInt();
-
+        int one = 13;
+        int two = 15;
+        int three = 10;
         if (one > two && one > three) {
-            System.out.println("самое большое число " + one);
+            System.out.println("Наибольшее число " + one);
         } else if (two > one && two > three) {
-            System.out.println("самое большое число " + two);
+            System.out.println("Наибольшее число " + two);
         } else if (three > one && three > two) {
-            System.out.println("самое большое число " + three);
-        } else if (one == two && one >= three) {
-            System.out.println("самое большое число " + one);
-        } else if (two == three && two >= one) {
-            System.out.println("самое большое число " + two);
-        } else if (three == one && three >= two) {
-            System.out.println("самое большое число " + three);
+            System.out.println("Наибольшее число " + three);
         }
 
         }
