@@ -269,7 +269,7 @@ public class Main {
             System.out.println("Доступно " + available + " сидений и " + stand + " мест для продолжения пути стоя");
          }    */
 
-        //Задача 7
+      /*  //Задача 7
         int one = 13;
         int two = 15;
         int three = 10;
@@ -279,10 +279,7 @@ public class Main {
             System.out.println("Наибольшее число " + two);
         } else if (three > one && three > two) {
             System.out.println("Наибольшее число " + three);
-        }
-
-        }
-        }
+        }  */
 
 
         // HOMEWORK IF ELSE SWITCH CASE PART 2
@@ -311,8 +308,52 @@ public class Main {
             System.out.println("Error");    */
 
         //Високосный год
+        /* int year = 2021;
+        if ((year % 4 == 0  &&  year % 100 != 0  ) || ( year % 400 == 0 )) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        } */
+    }
+
+        }
+
+// Задача 4
+     /*   int deliveryDistance = 95;
+        if (deliveryDistance > 0 && deliveryDistance <= 20) {
+            System.out.println("Потребуется один день для доставки");
+        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+            System.out.println("Потребуется два дня для доставки");
+        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            System.out.println("Потребуется три дня для доставки");
+        } else if (deliveryDistance > 100) {
+            System.out.println("Доставка не осуществляется");
+        } else
+            System.out.println("error");
+             */
 
 
+        /* int monthNumber = 12;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("сейчас зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("сейчас весна");
+            break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("сейчас лето");
+              break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("сейчас осень"); */
 
 
 
