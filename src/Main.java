@@ -55,7 +55,7 @@ public class Main {
         int total = 0;
         for (int i = 1; i <= 12; i++) {
             total = total + cash;
-            System.out.println("месяц " + i + " сумма накоплений равна " + total);
+            System.out.println("месяц " + i + " сумма накоплений будет равна " + total);
         }
 
         // 9.Перепишите решение задачи выше при условии,
