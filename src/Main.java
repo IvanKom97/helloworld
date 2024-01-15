@@ -443,6 +443,7 @@ public class Main {
             int res = 2 * i;
             System.out.println("2 * " + i + " = " + res);
 
+
         }
     }
 }
